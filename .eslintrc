@@ -1,0 +1,23 @@
+{
+    "parser": "babel-eslint",
+    // что мы используем в разработке
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    },
+    // описываем "свои" правила eslint в проекте
+    "rules": {
+        "semi": "off",
+        "indent": "off",
+        "linebreak-style": "off",
+        "arrow-parens": "off",
+        "comma-dangle": "off",
+        "eol-last": "off",
+        "require-jsdoc": "off",
+        "operator-linebreak": "off",
+        "no-debugger": "off",
+        "max-len": "off"
+    },
+    "extends": ["eslint:recommended", "google"]
+}
